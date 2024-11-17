@@ -15,14 +15,6 @@ This README provides step-by-step instructions for setting up **Syncthing** to s
 
 Ensure that you have the SSH key on your local machine, which is used to authenticate with your remote EC2 instance.
 
-If you don't have an SSH key, create one using the following command:
-
-```bash
-ssh-keygen -t rsa -b 2048 -f ~/.ssh/virginia.pem
-```
-
-Upload the public key (`virginia.pem.pub`) to the remote EC2 instance to enable SSH access.
-
 ---
 
 ## 2. Open SSH Tunnel (if required)

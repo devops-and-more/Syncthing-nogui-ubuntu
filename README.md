@@ -11,10 +11,6 @@ Run the following commands to update your system and install Syncthing:
 
 ```bash
 sudo apt-get update
-sudo apt-get install -y curl apt-transport-https gnupg
-curl -s https://syncthing.net/release-key.txt | sudo apt-key add -
-echo "deb https://apt.syncthing.net/ syncthing release" | sudo tee /etc/apt/sources.list.d/syncthing.list
-sudo apt-get update
 sudo apt-get install -y syncthing
 ```
 
